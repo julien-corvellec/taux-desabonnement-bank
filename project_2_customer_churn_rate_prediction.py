@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
-"""Project 2 - Customer churn rate prediction.ipynb
+"""Project 2 - Customer churn rate prediction.py
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dataset = pd.read_csv('/content/Churn_Modelling.csv')
+dataset = pd.read_csv('Churn_Modelling.csv')
 
 if check if there are any null values:
     return "Error null values"
